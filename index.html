@@ -3,71 +3,97 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>許玉麗的個人履歷</title>
+  <title>許玉麗的個人簡介</title>
   <style>
     body {
-      font-family: 'Noto Sans TC', sans-serif;
-      background: #f8f9fa;
+      font-family: "Noto Sans TC", sans-serif;
+      background-color: #fff;
+      color: #333;
+      line-height: 1.6;
       margin: 0;
-      padding: 0;
+      padding: 0 1em;
     }
-    .container {
-      max-width: 800px;
-      background: white;
-      margin: 40px auto;
-      padding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    header {
+      text-align: center;
+      margin-top: 20px;
     }
-    img.profile {
-      width: 120px;
-      height: 120px;
-      border-radius: 10px;
+    .profile-photo {
+      width: 100px;
+      height: 100px;
+      border-radius: 10%;
       object-fit: cover;
+      margin-bottom: 10px;
     }
     h1 {
-      color: #0078d7;
-      margin-bottom: 5px;
+      color: #0055cc;
     }
     h2 {
-      border-left: 4px solid #0078d7;
+      border-left: 4px solid #0055cc;
       padding-left: 8px;
       color: #333;
-      margin-top: 30px;
+      margin-top: 25px;
     }
-    p, li {
-      line-height: 1.6;
-      color: #444;
+    .info {
+      margin: 10px 0;
     }
-    ul {
-      padding-left: 20px;
+    .tag {
+      display: inline-block;
+      background: #e6f0ff;
+      color: #0055cc;
+      border-radius: 5px;
+      padding: 5px 10px;
+      margin: 5px;
+      font-size: 14px;
     }
   </style>
 </head>
 <body>
-  <div class="container">
+  <header>
+    <img src="profile_photo.jpg" alt="Profile Photo" class="profile-photo">
     <h1>許玉麗</h1>
-    <img src="prefile.jpg" alt="個人照片" class="profile">
-    <p>學號：114011122</p>
-    <p>學校：亞洲大學</p>
-    <p>科系：建管系</p>
-    <p>班級：1P</p>
-    <p>電話：0970118595</p>
-    <p>Email：huangocle.04032006@gmail.com</p>
+    <p class="info">學號：114011122</p>
+    <p class="info">學校：亞洲大學 建管系・一年級・1P班</p>
+    <p class="info">Email：huangocle.04032006@gmail.com</p>
+    <p class="info">電話：0970-118-595</p>
+  </header>
 
-    <h2>自我介紹</h2>
-    <p>我是亞洲大學一年級建管系學生（學號114011122）。我有興趣於烹飪，因此希望能找到與此相關的工作以學習並培養這項興趣。</p>
-    <p>目前有在全聯與麵店的工作經驗，累積了團隊合作與服務經驗。</p>
-    <img src="profile_photo.jpg" alt="學校照片" style="width:100%; border-radius:10px; margin-top:10px;">
+  <section>
+    <h2>技能</h2>
+    <span class="tag">團隊合作</span>
+    <span class="tag">顧客服務</span>
+    <span class="tag">時間管理</span>
+  </section>
 
-    <h2>語言能力</h2>
-    <ul>
-      <li>越南語（母語）</li>
-      <li>中文（良好）</li>
-    </ul>
+  <section>
+    <h2>語言</h2>
+    <span class="tag">越南語（母語）</span>
+    <span class="tag">中文（中級）</span>
+  </section>
 
+  <section>
     <h2>興趣</h2>
-    <p>閱讀、聽音樂、玩遊戲</p>
-  </div>
+    <span class="tag">閱讀</span>
+    <span class="tag">聽音樂</span>
+    <span class="tag">遊戲</span>
+    <span class="tag">烹飪</span>
+  </section>
+
+  <section>
+    <h2>學歷</h2>
+    <p>亞洲大學・建管系・一年級在學中</p>
+  </section>
+
+  <section>
+    <h2>工作經驗</h2>
+    <ul>
+      <li>全聯福利中心・收銀及上架人員</li>
+      <li>麵店・外場服務及備餐助理</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>職涯目標</h2>
+    <p>我是亞洲大學建管系一年級學生（學號：114011122）。我熱愛烹飪，因此希望能找到相關工作機會，以便學習並提升我的興趣與技能。</p>
+  </section>
 </body>
 </html>
